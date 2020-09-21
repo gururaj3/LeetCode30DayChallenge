@@ -1,0 +1,3 @@
+Check Leetcode solution for more clear explanation
+
+We have to output the minimum cost to paint the house. We can start from either red house first, blue house first or green house first and then make our way to get the minimum cost to paint the house.  
