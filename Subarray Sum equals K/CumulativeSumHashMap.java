@@ -16,3 +16,9 @@ public class Solution {
     }
 }
 Time Complexity - O(n)
+
+/*
+Prefix Sum = [3,7,14,16,13,14,18,20,21]
+Array = [3,4,7,2,-3,1,4,2,1]
+Sub arrays = [3,4][7][7,2,-3,1],[1,4,2][2,-3,1,4,2,1][4,2,1]
+*/
