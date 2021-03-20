@@ -8,10 +8,10 @@ class Solution {
 
         //House Robber solution
         int[] dp = new int[buckets.length];              //can be replaced by two vars
-        dp[0] = buckets[0];
-        dp[1] = Math.max(buckets[0], buckets[1]);
+        dp[0] = 0;
+        dp[1] = Math.max(0, buckets[1]);
         for (int i = 1; i < buckets.length-1; i++) {
-            dp[i+1] = Math.max(dp[i], dp[i-1] + buckets[i]);
+            dp[i+1] = Math.max(dp[i], dp[i-1] + buckets[i+1]);
         }
         
         return dp[buckets.length-1];
